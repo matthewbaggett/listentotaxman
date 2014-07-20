@@ -34,7 +34,6 @@ class Query{
       self::LISTEN_TO_TAXMAN_URI,
       $request_array
     );
-    //\Kint::dump($response);exit;
 
     $html = str_get_html($response->getBody());
     $data = new \StdClass();
