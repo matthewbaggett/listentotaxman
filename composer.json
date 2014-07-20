@@ -8,7 +8,8 @@
     }
   ],
   "require"    : {
-
+      "guzzlehttp/guzzle": "4.*",
+      "shark/simple_html_dom": "dev-master"
   },
   "autoload": {
     "psr-0": { "ListenToTaxman": "." }
